@@ -61,14 +61,14 @@ const config: Config = {
       title: 'Fonder',
       logo: {
         alt: 'Fonder Logo',
-        src: 'img/logo.svg',
+        src: 'img/fonder/logo_black.svg',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Métricas',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -86,7 +86,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: '/accounts/maas',
             },
           ],
         },
@@ -121,7 +121,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Fonder, LLC.`,
     },
     prism: {
       theme: prismThemes.github,
