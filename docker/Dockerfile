@@ -15,20 +15,19 @@ RUN yarn install --frozen-lockfile --network-timeout 600000
 COPY . .
 
 # Build the app
-#RUN npm run serve -- --build --port 80 --host 0.0.0.0
 RUN yarn build
+#RUN yarn serve -- --build --port 80 --host 0.0.0.0
+
+CMD ["npm", "run", "serve", "--", "--build", "--port", "80", "--host", "0.0.0.0", "--no-open"]
 
 # Use nginx to serve static files
-FROM nginx:alpine
+#FROM nginx:alpine
 
 # Copy built files to nginx
-COPY --from=0 /app/build /usr/share/nginx/html
-
+#COPY --from=0 /app/build /usr/share/nginx/html
 # Copy nginx config if needed
 # COPY nginx.conf /etc/nginx/conf.d/default.conf
-
 # Expose port 80
-EXPOSE 80
-
+#EXPOSE 80
 # Start nginx
-CMD ["nginx", "-g", "daemon off;"]
+#CMD ["nginx", "-g", "daemon off;"]
