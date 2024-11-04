@@ -13,14 +13,16 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+          Fonder | Simplifica tus finanzas empresariales
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">
+          Plataforma integral para gestión financiera, facturación y pagos B2B
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Go to docs
+            Comienza ahora →
           </Link>
         </div>
       </div>
@@ -32,8 +34,8 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title="Fonder | Finanzas Empresariales Simplificadas"
+      description="Plataforma integral de gestión financiera para empresas en Latinoamérica. Facturación, pagos y finanzas B2B simplificadas.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

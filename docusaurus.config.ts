@@ -4,19 +4,20 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Fonder',
-  tagline: 'El camino del emprendedor',
+  tagline: 'Plataforma integral de gestión financiera para empresas en Latinoamérica. Facturación, pagos y finanzas B2B simplificadas.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://fonderlatam.com',
+  url: 'https://docs.fonderlatam.com',
+
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Fonder', // Usually your GitHub org/user name.
-  projectName: 'Fonder', // Usually your repo name.
+  organizationName: 'FonderLatam',
+  projectName: 'fonder-docs',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -25,8 +26,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'es',
+    locales: ['en','es'],
   },
 
   presets: [
@@ -54,80 +55,79 @@ const config: Config = {
     ],
   ],
 
-  themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
-    navbar: {
-      title: 'Fonder',
-      logo: {
-        alt: 'Fonder Logo',
-        src: 'img/fonder/logo_black.svg',
+themeConfig: {
+  // Replace with your project's social card
+  image: 'img/fonder/social-card.jpg', // Update this with your actual social card image
+
+  navbar: {
+    title: 'Fonder',
+    logo: {
+      alt: 'Fonder Logo',
+      src: 'img/fonder/logo_black.svg',
+    },
+    items: [
+      {
+        type: 'docSidebar',
+        sidebarId: 'tutorialSidebar',
+        position: 'left',
+        label: 'Métricas',
       },
-      items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Métricas',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/FonderLatam',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
-    },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/accounts/maas',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Fonder, LLC.`,
-    },
-    prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
-    },
-  } satisfies Preset.ThemeConfig,
+      {to: '/blog', label: 'Blog', position: 'left'},
+      {
+        href: 'https://github.com/FonderLatam',
+        label: 'GitHub',
+        position: 'right',
+      },
+    ],
+  },
+  footer: {
+    style: 'dark',
+    links: [
+      {
+        title: 'Documentación',
+        items: [
+          {
+            label: 'Métricas',
+            to: '/docs/intro',
+          },
+        ],
+      },
+      {
+        title: 'Comunidad',
+        items: [
+          {
+            label: 'LinkedIn',
+            href: 'https://www.linkedin.com/company/fonder-latam/',
+          },
+          {
+            label: 'Instagram',
+            href: 'https://www.instagram.com/fonder.latam/',
+          },
+        ],
+      },
+      {
+        title: 'Blog',
+        items: [
+          {
+            label: 'Blog',
+            to: '/blog',
+          },
+          {
+            label: 'GitHub',
+            href: 'https://github.com/FonderLatam',
+          },
+        ],
+      },
+    ],
+    copyright: `Copyright © ${new Date().getFullYear()} Fonder, LLC.`,
+  },
+  prism: {
+    theme: prismThemes.github,
+    darkTheme: prismThemes.dracula,
+  },
+} satisfies Preset.ThemeConfig,
+
+// ... rest of the config
 };
 
 export default config;
