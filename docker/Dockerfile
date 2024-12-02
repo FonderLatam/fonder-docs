@@ -18,7 +18,9 @@ COPY . .
 RUN yarn build
 #RUN yarn serve -- --build --port 80 --host 0.0.0.0
 
-CMD ["npm", "run", "serve", "--", "--build", "--port", "80", "--host", "0.0.0.0", "--no-open"]
+EXPOSE 3003
+
+CMD ["npm", "run", "serve", "--", "--build", "--port", "3003", "--host", "0.0.0.0", "--no-open"]
 
 # Use nginx to serve static files
 #FROM nginx:alpine
