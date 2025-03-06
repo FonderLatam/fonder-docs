@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# Visión general
+# Clientes activos
 
 "Contribución Directa por Usuario", mide cuánto contribuye cada usuario o cliente al ingreso total de una empresa después de considerar los costos directamente atribuibles a su adquisición y mantenimiento. Esta métrica es útil para entender el impacto financiero de cada cliente en la rentabilidad del negocio.
 
