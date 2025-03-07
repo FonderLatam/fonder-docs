@@ -46,7 +46,7 @@ Estos archivos permitirán que Fonder consolide toda tu información financiera 
 
 2. Dentro de la sección de suscripciones, busca la opción para **exportar** o **descargar** las suscripciones.
 
-3. Mercado Pago te permitirá descargar un archivo **CSV** con todas las suscripciones que coinciden con tu búsqueda. (mercadopago.com.ar)
+3. Mercado Pago te permitirá descargar un archivo **CSV** con todas las suscripciones que coinciden con tu búsqueda. ([mercadopago.com.ar](https://mercadopago.com.ar))
 
 *Nota*: Si no encuentras la opción para exportar las suscripciones desde el panel, es posible que necesites utilizar la API de Mercado Pago para obtener esta información.
 

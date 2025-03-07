@@ -36,7 +36,7 @@ Estos archivos permitirán que Fonder consolide toda tu información financiera 
 
 - **Tipo de pago:** Puedes optar por exportar pagos exitosos, reembolsados, no capturados o todos los pagos.
 
-5. Una vez configurados los parámetros, haz clic en **"Exportar"** para descargar el archivo en formato CSV. (support.stripe.com)
+5. Una vez configurados los parámetros, haz clic en **"Exportar"** para descargar el archivo en formato CSV. ([support.stripe.com](https://support.stripe.com))
 
 *Nota:* Este reporte incluirá todas tus transacciones, lo que facilita la contabilidad para períodos de tiempo específicos.
 
