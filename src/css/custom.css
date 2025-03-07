@@ -10,9 +10,9 @@
   
   /* Additional modern theme colors */
   --ifm-background-color: #FFFFFF;
-  --ifm-navbar-background-color: #FFFFFF;
+  --ifm-navbar-background-color: #f4f3f3;
   --ifm-footer-background-color: #F8F9FA;
-  --ifm-color-secondary: #F8F9FA;
+  --ifm-color-secondary: #f4f3f3;
   --ifm-font-color-base: #1F2937;
 }
 
@@ -30,6 +30,8 @@
   --ifm-navbar-background-color: #1F2937;
   --ifm-footer-background-color: #111827;
   --ifm-font-color-base: #F9FAFB;
+  --footer-background: #111827;
+  --font-color: #F9FAFB;
 }
 
 /* Modern styling additions */
@@ -51,3 +53,36 @@
 .hero--primary {
   background: linear-gradient(145deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-darker) 100%);
 }
+
+.footer {
+  background-color: #1F2937;
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.875rem;
+}
+.theme-doc-markdown {
+  font-family: 'Roboto', sans-serif;
+  color: var(--ifm-font-color-base);
+}
+
+.theme-doc-markdown h1,
+.theme-doc-markdown h2,
+.theme-doc-markdown h3 {
+  color: var(--ifm-font-color-base);
+  margin-bottom: 1rem;
+}
+
+.theme-doc-markdown a {
+  color: var(--ifm-color-primary);
+  text-decoration: underline;
+}
+
+.theme-doc-markdown a:hover {
+  text-decoration: none;
+}
+
+.theme-doc-content,
+.markdown {
+  margin-left: 20px;
+}
+

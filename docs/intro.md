@@ -4,13 +4,13 @@ sidebar_position: 1
 
 # Introducción
 
-📍 **¿Qué es Fonder?**
+### 📍 ¿Qué es Fonder?
 
 Fonder es una plataforma de gestión financiera diseñada para ayudar a **startups y pymes en Latinoamérica** a tomar decisiones de crecimiento informadas. Permite visualizar y analizar métricas clave en tiempo real, consolidar datos financieros desde distintas fuentes y generar reportes fáciles de compartir.
 
 ---
 
-🎯 **¿Para quién es Fonder?**
+### 🎯 ¿Para quién es Fonder?
 
 Fonder está diseñado para:
 
@@ -20,7 +20,7 @@ Fonder está diseñado para:
 
 ---
 
-🚀 **¿Qué puedes hacer con Fonder?**
+### 🚀 ¿Qué puedes hacer con Fonder?
 
 ✅ Ver **métricas financieras clave** como ingresos recurrentes, ARPU, LTV/CAC y más.  
 ✅ **Integrar fuentes de datos** como Mercado Pago para obtener información automáticamente.  
@@ -29,7 +29,7 @@ Fonder está diseñado para:
 
 ---
 
-🔑 **Primeros pasos en Fonder**
+### 🔑 Primeros pasos en Fonder
 
 Para comenzar a utilizar Fonder:
 
@@ -39,7 +39,7 @@ Para comenzar a utilizar Fonder:
 
 ---
 
-🔄 **Próximos pasos**
+### 🔄 Próximos pasos
 
 Ahora que conoces Fonder, te recomendamos continuar con la siguiente sección:  
 ➡️ [Fuentes de Datos](./fuentes-de-datos)

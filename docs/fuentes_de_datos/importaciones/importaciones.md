@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Importación de Excel y CSV
 
 Si no puedes conectar Mercado Pago directamente o utilizas otras plataformas, puedes importar datos manualmente en Fonder mediante archivos CSV o Excel.
