@@ -2,46 +2,44 @@
 sidebar_position: 1
 ---
 
-# Fonder métricas
+# Introducción
 
-Let's discover **Docusaurus in less than 5 minutes**.
+### 📍 ¿Qué es Fonder?
 
-## Getting Started
+Fonder es una plataforma de gestión financiera diseñada para ayudar a **startups y pymes en Latinoamérica** a tomar decisiones de crecimiento informadas. Permite visualizar y analizar métricas clave en tiempo real, consolidar datos financieros desde distintas fuentes y generar reportes fáciles de compartir.
 
-Get started by **creating a new site**.
+---
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### 🎯 ¿Para quién es Fonder?
 
-### What you'll need
+Fonder está diseñado para:
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- **Startups SaaS pequeñas y medianas** que buscan optimizar su crecimiento financiero.
+- **Equipos de finanzas y founders** que necesitan consolidar y entender su información financiera sin procesos manuales engorrosos.
+- **Negocios que utilizan Mercado Pago, Stripe o bancos tradicionales** y quieren centralizar sus datos de ingresos y gastos en una sola plataforma.
 
-## Generate a new site
+---
 
-Generate a new Docusaurus site using the **classic template**.
+### 🚀 ¿Qué puedes hacer con Fonder?
 
-The classic template will automatically be added to your project after you run the command:
+✅ Ver **métricas financieras clave** como ingresos recurrentes, ARPU, LTV/CAC y más.  
+✅ **Integrar fuentes de datos** como Mercado Pago para obtener información automáticamente.  
+✅ **Importar archivos CSV y Excel** desde Stripe, bancos y otras plataformas.  
+✅ **Generar reportes financieros en segundos** sin depender de hojas de cálculo.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+---
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### 🔑 Primeros pasos en Fonder
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Para comenzar a utilizar Fonder:
 
-## Start your site
+1. **Iniciar sesión** con tu cuenta de Google.
+2. **Configurar tus fuentes de datos**: conectar Mercado Pago o importar archivos CSV/Excel.
+3. **Explorar el panel de métricas** para visualizar la información financiera de tu negocio.
 
-Run the development server:
+---
 
-```bash
-cd my-website
-npm run start
-```
+### 🔄 Próximos pasos
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Ahora que conoces Fonder, te recomendamos continuar con la siguiente sección:  
+➡️ [Fuentes de Datos](./fuentes-de-datos)
