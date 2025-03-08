@@ -19,7 +19,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "FonderLatam",
   projectName: "fonder-docs",
-  deploymentBranch: "develop",
+  deploymentBranch: "gh-pages",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
