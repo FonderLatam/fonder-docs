@@ -42,4 +42,4 @@ Para comenzar a utilizar Fonder:
 ### 🔄 Próximos pasos
 
 Ahora que conoces Fonder, te recomendamos continuar con la siguiente sección:  
-➡️ [Fuentes de Datos](./fuentes-de-datos)
+➡️ [Fuentes de Datos](./fuentes_de_datos/index.md)
