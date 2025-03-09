@@ -94,11 +94,11 @@ const config: Config = {
           items: [
             {
               label: "LinkedIn",
-              href: "https://www.linkedin.com/company/fonder-latam/",
+              href: "https://www.linkedin.com/company/fonder/",
             },
             {
               label: "Instagram",
-              href: "https://www.instagram.com/fonder.latam/",
+              href: "https://www.instagram.com/fonderlatam/",
             },
           ],
         },
@@ -112,7 +112,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Fonder, LLC.`,
+      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://fonderlatam.com" target="_blank" rel="noopener noreferrer">Fonder, LLC</a>.`,
     },
     prism: {
       theme: prismThemes.github,
